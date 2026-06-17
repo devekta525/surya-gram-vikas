@@ -152,7 +152,7 @@ function PillarCard({ item }: { item: PillarItem }) {
 
 export default function Pillars() {
   return (
-    <section id="pillars" className="py-24 px-4 sm:px-6 lg:px-8 bg-background relative border-b border-border/20">
+    <section id="pillars" className="py-24 px-4 sm:px-6 lg:px-8 bg-background relative overflow-hidden border-b border-border/20">
       
       {/* Background Gradients */}
       <div className="absolute top-1/3 left-10 w-96 h-96 bg-primary/5 rounded-full blur-[120px] pointer-events-none" />

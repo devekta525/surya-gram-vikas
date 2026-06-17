@@ -146,6 +146,7 @@ body {
 /* Smooth Scrolling context */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* Animations */
